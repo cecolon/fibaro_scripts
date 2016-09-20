@@ -49,7 +49,6 @@ local persist = {
       return nil
     end,
   clear = function(this, clear_key)
-    fibaro:debug("clearing " .. clear_key)
     local persist_table = this:loadLocalTable()
     persist_table[clear_key] = nil
     this:commitLocalTable(persist_table)

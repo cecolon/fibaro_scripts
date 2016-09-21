@@ -1,4 +1,4 @@
--- Persistent storage for VDs, heavily inspired from Krikoff's Sonos VD
+-- Persistent storage for VDs, heavily inspired from Krikroff's Sonos VD
 local persist = { 
   persist_global_var = "lua_persist",
   load = function(this)
